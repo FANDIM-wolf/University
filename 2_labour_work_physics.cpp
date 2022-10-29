@@ -157,9 +157,7 @@ int main()
     cin>>t;
     cout<<"Enter Delta time:";
     cin>>Dt;
-    //first Test :: print some values
-    cout<<"Small test , printing of some values"<<endl;
-    cout<<h<<Dh<<d<<Dd<<m2<<Dm2<<"Momemt of Inertion:"<< J0 <<endl;
+ 
 
     //main part
     double translation_energy = calculate_translation_energy(m2,h,t);
