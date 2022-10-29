@@ -113,7 +113,7 @@ int main()
     cin>>m;
     cout<<"Delta Mass of small cylinder '(there are four in total)': ";
     cin>>Dm;
-    cout<<"Enter mass 0 '(m0)'";
+    cout<<"Enter mass 0 '(m0)' :";
     cin>>m0;
     cout<<"Enter Delta mass 0 '(m0):";
     cin>>Dm0;
