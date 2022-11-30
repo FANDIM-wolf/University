@@ -5,6 +5,7 @@
 */
 #include <iostream>
 #include <cmath>
+#include <string>
 
 using namespace std;
 
@@ -21,10 +22,11 @@ double calculate_translation_energy(double m2,double h, double t){
  return translation_energy ;
 
 }
-//2 formula
+//2 formula 
 double calculate_translation_energy_Delta(double m2,double h, double t , double Dm2 , double Dh , double Dt){
 
     double translation_energy_Delta = (Dm2/m2)+(2*Dh/h)+(2*Dt/t);
+    //return value of translation engergy Delta
     return translation_energy_Delta;
 
 }
