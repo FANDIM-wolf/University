@@ -1,7 +1,7 @@
 /*
  calculate main values in second labour work
  Result: variables for graph , which proves law of saving energy.
-
+@2022
 */
 #include <iostream>
 #include <cmath>
